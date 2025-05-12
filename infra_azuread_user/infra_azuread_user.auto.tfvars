@@ -1,0 +1,1 @@
+infra_user_principal_name = ["testTerraformUser1", "testTerrraformUser2", "testTerrraformUser3"]
