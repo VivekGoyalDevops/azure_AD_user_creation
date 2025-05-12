@@ -1,0 +1,2 @@
+# azure_AD_user_creation
+azure_AD_user_creation using terraform
