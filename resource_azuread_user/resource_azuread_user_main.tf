@@ -11,7 +11,7 @@
 # }
 resource "azuread_user" "azureaduser" { 
   count = length(var.resource_user_principal_name)
-  user_principal_name = "${var.resource_user_principal_name[count.index]}@vgoel86outlook.onmicrosoft.com"
+  user_principal_name = "${var.resource_user_principal_name[count.index]}@manosijmajumdergmail.onmicrosoft.com"
   display_name        = var.resource_user_principal_name[count.index]
   mail_nickname       = var.resource_user_principal_name[count.index]
   password            = "vivek@X123456"
