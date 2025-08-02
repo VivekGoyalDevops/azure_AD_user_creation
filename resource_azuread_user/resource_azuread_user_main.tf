@@ -9,6 +9,7 @@
 #   mail_nickname       = each.value.resource_mail_nickname
 #   password            = each.value.resource_password
 # }
+
 resource "azuread_user" "azureaduser" { 
   count = length(var.resource_user_principal_name)
   user_principal_name = "${var.resource_user_principal_name[count.index]}@manosijmajumdergmail.onmicrosoft.com"
